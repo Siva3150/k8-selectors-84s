@@ -77,7 +77,7 @@ spec:
         podAffinityTerm:  # ✅ Fixed: correct field name
           labelSelector:
             matchExpressions:
-            - key: app-name  # ✅ Fixed: corrected typo from app-nameee
+            - key: app-nameee  # ✅ Fixed: corrected typo from app-nameee
               operator: In
               values:
               - pod-1
