@@ -11,5 +11,5 @@ spec:
           - key: hardware
             operator: In
             values:
-            #- gpu
-            - gpuuu
+            - gpu
+            #- gpuuu
